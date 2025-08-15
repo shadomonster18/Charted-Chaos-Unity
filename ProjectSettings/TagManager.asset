@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - map
+  - Eagle
+  - CannonBall
+  - dock-main-island
+  - tear
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Enemy
+  - Water
+  - UI
+  - landscape
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: hell
+    uniqueID: 2717961609
+    locked: 0
+  - name: way down
+    uniqueID: 2900925909
+    locked: 0
+  - name: down
+    uniqueID: 898344869
+    locked: 0
+  - name: less down
+    uniqueID: 1429565101
+    locked: 0
+  - name: not really down tbh
+    uniqueID: 417050611
+    locked: 0
+  - name: kind of middle but a little more down
+    uniqueID: 1719113355
+    locked: 0
+  - name: kind of above the little more down but middle
+    uniqueID: 2293286971
+    locked: 0
+  - name: middle
+    uniqueID: 1145021685
+    locked: 0
+  - name: pretty top but not really
+    uniqueID: 3530770835
+    locked: 0
+  - name: kinda top
+    uniqueID: 3210306551
+    locked: 0
+  - name: top
+    uniqueID: 3854320289
+    locked: 0
+  - name: above
+    uniqueID: 4044542099
+    locked: 0
+  - name: jesus christ
+    uniqueID: 1509805657
+    locked: 0
+  - name: god
+    uniqueID: 2821997379
+    locked: 0
+  - name: donald trump
+    uniqueID: 2850642609
+    locked: 0
