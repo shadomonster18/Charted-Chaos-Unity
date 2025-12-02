@@ -48,7 +48,23 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
+        EnemySpawn[] objectsWithScript = FindObjectsOfType<EnemySpawn>(true);
+
+        if (objectsWithScript.Length == 0)
+        {
+            Debug.Log("None");
+        }
+        else
+        {
+            foreach (EnemySpawn obj in objectsWithScript)
+            {
+                Debug.Log("Found object with MyScript: " + obj.gameObject.name);
+            }
+        }
+
         maxSpeed = moveSpeed;
+
+        chasePlayer.score = 0;
 
         StartCoroutine(WaitAndSpawnEnemies(1f, 10000));
         StartCoroutine(WaitAndGiveUpgrade("TripleShot", 50, 0.2f));

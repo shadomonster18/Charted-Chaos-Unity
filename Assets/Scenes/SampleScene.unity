@@ -122,6 +122,171 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!43 &64583635
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 102
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 38
+    localAABB:
+      m_Center: {x: -0.013828009, y: 0.040527057, z: 0}
+      m_Extent: {x: 0.14617199, y: 0.119472966, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 0000010002000300010000000300040001000400030005000600070008000900070006000a00070009000a000b0007000c000b000a000d000b000c000b000d0002000e000f00100004000f000e000f0004001100020012000000000013000300010014000200040015000100020016000b000d00170002000300180005000500190004000e001a00040004001b00110008001c00060006001d00090007001e0008000b001f000700090020000a000a0021000c000c0022000d00100023000e000f0024001000110025000f00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 38
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1672
+    _typelessdata: 52eef6bd2a2b993d0000000033fec1bc9eed7fbf000000000000008052eef6bd2a2b993d52eef6bd2a2b993da33d03bec911823d0000000030b114bfff63503f0000008000000080571cc8bd9b92ae3d1a6d22beee212b3d1aa6e6bd6ec8983d000000002fb1143f006450bf000000800000008052eef6bd2a2b993d2e85073e34e68c3d1aa70fbea16cf03d000000005e5568bf2802d7be00000000000000800ad723be0cd7233e52eef6bd2a2b993d1ebe21be5a152d3d0000000017f67fbf96788ebc00000000000000806c951fbe65aea1bd0ad723be0cd7233e0ad723be0cd7233e00000000615568bf1f02d7be00000000000000800ad723be0cd7233e0ad723be0cd7233e471e9c3df76fa63d00000000b2225ebe6ae779bf0000000000000080471e9c3df76fa63d471e9c3df76fa63d2e85073e34e68c3d0000000013fec13c9eed7f3f00000080000000802e85073e34e68c3d2e85073e34e68c3d5294d53d16ab993d00000000c6225ebe69e779bf00000000000000802e85073e34e68c3d471e9c3df76fa63d938b383dde34b33d00000000bcd248be55077bbf0000000000000080471e9c3df76fa63d616a633cc4f9bf3d616a633cc4f9bf3d00000000acd248be55077bbf0000000000000080616a633cc4f9bf3d616a633cc4f9bf3d50e0c03baf08933d0000000012fec13c9fed7f3f000000800000008052eef6bd2a2b993d2e85073e34e68c3d0baf2bbd3046b73d00000000d9809b3dd0427fbf0000008000000080616a633cc4f9bf3d571cc8bd9b92ae3d571cc8bd9b92ae3d00000000eb809b3dd0427fbf0000008000000080571cc8bd9b92ae3d571cc8bd9b92ae3d3bb621beb3ff253d0000000016f67fbf477b8ebc00000000000000806c951fbe65aea1bd0ad723be0cd7233e430121bedc3a98bc00000000afee7f3f614fbc3c00000080000000801a6d22beee212b3d6c951fbe65aea1bd6c951fbe65aea1bd00000000afee7f3f614fbc3c00000080000000806c951fbe65aea1bd6c951fbe65aea1bd1a6d22beee212b3d0000000019b1143f106450bf00000080000000801a6d22beee212b3d1a6d22beee212b3d1aa6e6bd6ec8983d0000000033fec1bc9eed7fbf000000000000008052eef6bd2a2b993d2e85073e34e68c3d52eef6bd2a2b993d000000005e5568bf2802d7be000000000000008052eef6bd2a2b993d52eef6bd2a2b993da33d03bec911823d000000002eb114bf0264503f0000008000000080571cc8bd9b92ae3d1a6d22beee212b3d1ebe21be5a152d3d0000000030b114bfff63503f00000080000000806c951fbe65aea1bd0ad723be0cd7233e1aa6e6bd6ec8983d0000000012fec13c9fed7f3f000000800000008052eef6bd2a2b993d2e85073e34e68c3d571cc8bd9b92ae3d000000002fb1143f006450bf0000008000000080571cc8bd9b92ae3d571cc8bd9b92ae3d1aa70fbea16cf03d00000000615568bf1f02d7be00000000000000800ad723be0cd7233e52eef6bd2a2b993d0ad723be0cd7233e0000000016f67f3f517b8e3c00000080000000800ad723be0cd7233e0ad723be0cd7233e3bb621beb3ff253d0000000017f67fbf96788ebc00000000000000806c951fbe65aea1bd0ad723be0cd7233e1ebe21be5a152d3d0000000019b1143f106450bf00000080000000806c951fbe65aea1bd0ad723be0cd7233e5294d53d16ab993d00000000b2225ebe6ae779bf00000000000000802e85073e34e68c3d471e9c3df76fa63d471e9c3df76fa63d00000000bcd248be55077bbf0000000000000080471e9c3df76fa63d471e9c3df76fa63d2e85073e34e68c3d00000000c6225ebe69e779bf00000000000000802e85073e34e68c3d2e85073e34e68c3d50e0c03baf08933d0000000013fec13c9eed7f3f000000800000008052eef6bd2a2b993d2e85073e34e68c3d938b383dde34b33d00000000acd248be55077bbf0000000000000080471e9c3df76fa63d616a633cc4f9bf3d616a633cc4f9bf3d00000000d9809b3dd0427fbf0000008000000080616a633cc4f9bf3d616a633cc4f9bf3d0baf2bbd3046b73d00000000eb809b3dd0427fbf0000008000000080616a633cc4f9bf3d571cc8bd9b92ae3d6c951fbe65aea1bd0000000016f67fbf477b8ebc00000000000000806c951fbe65aea1bd6c951fbe65aea1bd430121bedc3a98bc00000000afee7f3f614fbc3c00000080000000801a6d22beee212b3d6c951fbe65aea1bd1a6d22beee212b3d00000000afee7f3f614fbc3c00000080000000801a6d22beee212b3d1a6d22beee212b3d
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.013828009, y: 0.040527057, z: 0}
+    m_Extent: {x: 0.14617199, y: 0.119472966, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &67458005
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,16 +437,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &83373448
 Animator:
   serializedVersion: 5
@@ -11435,7 +11607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 395596501}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: spawnPoint 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11849,16 +12021,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &478944458
 Animator:
   serializedVersion: 5
@@ -12075,7 +12254,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.42745098, g: 0.15294118, b: 0.07450981, a: 0}
+  m_BackGroundColor: {r: 0.81960785, g: 0.7176471, b: 0.36078432, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -12276,7 +12455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 575877554}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12448,16 +12627,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &599916477
 Animator:
   serializedVersion: 5
@@ -12807,16 +12993,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &637859203
 Animator:
   serializedVersion: 5
@@ -13289,8 +13482,8 @@ MonoBehaviour:
   - {x: -0.097710304, y: 0.085240565, z: 0}
   - {x: -0.15861931, y: 0.041780405, z: 0.0000007301569}
   m_ShapePathHash: -1356580208
-  m_Mesh: {fileID: 2019687970}
-  m_InstanceId: 198158
+  m_Mesh: {fileID: 64583635}
+  m_InstanceId: 123554
   m_LocalBounds:
     m_Center: {x: -0.013828009, y: 0.040527053, z: 0}
     m_Extent: {x: 0.14617199, y: 0.119472966, z: 0}
@@ -13303,7 +13496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 695451207}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: spawnPoint 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13872,7 +14065,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tearSpawn: {fileID: 0}
-  shouldSwitch: 1
+  chase: {fileID: 2016698441}
+  scoreSwitch: 0
+  shouldSwitch: 0
   sceneName: OnFootCombat
 --- !u!1 &848409233
 GameObject:
@@ -14233,16 +14428,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &899151144
 Animator:
   serializedVersion: 5
@@ -14863,7 +15065,7 @@ GameObject:
   - component: {fileID: 1047779073}
   - component: {fileID: 1047779074}
   - component: {fileID: 1047779075}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -14987,6 +15189,7 @@ Transform:
   - {fileID: 1536454373}
   - {fileID: 695451207}
   - {fileID: 395596501}
+  - {fileID: 1071954914}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1047779073
@@ -15157,6 +15360,90 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1071954913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1071954914}
+  - component: {fileID: 1071954915}
+  m_Layer: 7
+  m_Name: canon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1071954914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071954913}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.025065614, y: 0.0521953, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1047779072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1071954915
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071954913}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b0c14320ba9da1843874a0318b0fda86, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1107408458
 GameObject:
   m_ObjectHideFlags: 0
@@ -15391,16 +15678,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1169789714
 Animator:
   serializedVersion: 5
@@ -20430,16 +20724,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1171963783
 Animator:
   serializedVersion: 5
@@ -20723,16 +21024,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1252336052
 Animator:
   serializedVersion: 5
@@ -21014,16 +21322,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1296586505
 Animator:
   serializedVersion: 5
@@ -21307,16 +21622,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1332864121
 Animator:
   serializedVersion: 5
@@ -21684,16 +22006,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1448244572
 Animator:
   serializedVersion: 5
@@ -21893,16 +22222,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1463546800
 Animator:
   serializedVersion: 5
@@ -22045,7 +22381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1536454373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22080,7 +22416,7 @@ GameObject:
   - component: {fileID: 1541636023}
   - component: {fileID: 1541636022}
   - component: {fileID: 1541636024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: canon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22330,16 +22666,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1550228784
 Animator:
   serializedVersion: 5
@@ -22621,16 +22964,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1562590046
 Animator:
   serializedVersion: 5
@@ -23586,16 +23936,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1703590108
 Animator:
   serializedVersion: 5
@@ -23795,16 +24152,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1711250076
 Animator:
   serializedVersion: 5
@@ -24222,16 +24586,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1826230317
 Animator:
   serializedVersion: 5
@@ -24546,16 +24917,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1909274012
 Animator:
   serializedVersion: 5
@@ -29585,16 +29963,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &1938227303
 Animator:
   serializedVersion: 5
@@ -30264,7 +30649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &1986154348
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -30381,6 +30766,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tearSpawn: {fileID: 1855636327}
+  chase: {fileID: 0}
+  scoreSwitch: 0
   shouldSwitch: 1
   sceneName: next
 --- !u!1 &2010505058
@@ -30624,6 +31011,10 @@ GameObject:
   - component: {fileID: 2016698441}
   - component: {fileID: 2016698442}
   - component: {fileID: 2016698443}
+  - component: {fileID: 2016698447}
+  - component: {fileID: 2016698445}
+  - component: {fileID: 2016698444}
+  - component: {fileID: 2016698446}
   m_Layer: 0
   m_Name: eagle
   m_TagString: Eagle
@@ -30782,16 +31173,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 9040650533586235512, guid: 68707ec161e19404f80133f1ed49bdee, type: 3}
+  IslandPosition: {fileID: 758544002}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 204853932}
-  speed: 6
+  speed: 5
   tear: {fileID: 1986154347}
+  scoreEnd: 99
+  landScore: 49
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!50 &2016698442
 Rigidbody2D:
   serializedVersion: 4
@@ -30915,171 +31313,166 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!43 &2019687970
-Mesh:
+--- !u!58 &2016698444
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 102
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 38
-    localAABB:
-      m_Center: {x: -0.013828009, y: 0.040527057, z: 0}
-      m_Extent: {x: 0.14617199, y: 0.119472966, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 0000010002000300010000000300040001000400030005000600070008000900070006000a00070009000a000b0007000c000b000a000d000b000c000b000d0002000e000f00100004000f000e000f0004001100020012000000000013000300010014000200040015000100020016000b000d00170002000300180005000500190004000e001a00040004001b00110008001c00060006001d00090007001e0008000b001f000700090020000a000a0021000c000c0022000d00100023000e000f0024001000110025000f00
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 38
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1672
-    _typelessdata: 52eef6bd2a2b993d0000000033fec1bc9eed7fbf000000000000008052eef6bd2a2b993d52eef6bd2a2b993da33d03bec911823d0000000030b114bfff63503f0000008000000080571cc8bd9b92ae3d1a6d22beee212b3d1aa6e6bd6ec8983d000000002fb1143f006450bf000000800000008052eef6bd2a2b993d2e85073e34e68c3d1aa70fbea16cf03d000000005e5568bf2802d7be00000000000000800ad723be0cd7233e52eef6bd2a2b993d1ebe21be5a152d3d0000000017f67fbf96788ebc00000000000000806c951fbe65aea1bd0ad723be0cd7233e0ad723be0cd7233e00000000615568bf1f02d7be00000000000000800ad723be0cd7233e0ad723be0cd7233e471e9c3df76fa63d00000000b2225ebe6ae779bf0000000000000080471e9c3df76fa63d471e9c3df76fa63d2e85073e34e68c3d0000000013fec13c9eed7f3f00000080000000802e85073e34e68c3d2e85073e34e68c3d5294d53d16ab993d00000000c6225ebe69e779bf00000000000000802e85073e34e68c3d471e9c3df76fa63d938b383dde34b33d00000000bcd248be55077bbf0000000000000080471e9c3df76fa63d616a633cc4f9bf3d616a633cc4f9bf3d00000000acd248be55077bbf0000000000000080616a633cc4f9bf3d616a633cc4f9bf3d50e0c03baf08933d0000000012fec13c9fed7f3f000000800000008052eef6bd2a2b993d2e85073e34e68c3d0baf2bbd3046b73d00000000d9809b3dd0427fbf0000008000000080616a633cc4f9bf3d571cc8bd9b92ae3d571cc8bd9b92ae3d00000000eb809b3dd0427fbf0000008000000080571cc8bd9b92ae3d571cc8bd9b92ae3d3bb621beb3ff253d0000000016f67fbf477b8ebc00000000000000806c951fbe65aea1bd0ad723be0cd7233e430121bedc3a98bc00000000afee7f3f614fbc3c00000080000000801a6d22beee212b3d6c951fbe65aea1bd6c951fbe65aea1bd00000000afee7f3f614fbc3c00000080000000806c951fbe65aea1bd6c951fbe65aea1bd1a6d22beee212b3d0000000019b1143f106450bf00000080000000801a6d22beee212b3d1a6d22beee212b3d1aa6e6bd6ec8983d0000000033fec1bc9eed7fbf000000000000008052eef6bd2a2b993d2e85073e34e68c3d52eef6bd2a2b993d000000005e5568bf2802d7be000000000000008052eef6bd2a2b993d52eef6bd2a2b993da33d03bec911823d000000002eb114bf0264503f0000008000000080571cc8bd9b92ae3d1a6d22beee212b3d1ebe21be5a152d3d0000000030b114bfff63503f00000080000000806c951fbe65aea1bd0ad723be0cd7233e1aa6e6bd6ec8983d0000000012fec13c9fed7f3f000000800000008052eef6bd2a2b993d2e85073e34e68c3d571cc8bd9b92ae3d000000002fb1143f006450bf0000008000000080571cc8bd9b92ae3d571cc8bd9b92ae3d1aa70fbea16cf03d00000000615568bf1f02d7be00000000000000800ad723be0cd7233e52eef6bd2a2b993d0ad723be0cd7233e0000000016f67f3f517b8e3c00000080000000800ad723be0cd7233e0ad723be0cd7233e3bb621beb3ff253d0000000017f67fbf96788ebc00000000000000806c951fbe65aea1bd0ad723be0cd7233e1ebe21be5a152d3d0000000019b1143f106450bf00000080000000806c951fbe65aea1bd0ad723be0cd7233e5294d53d16ab993d00000000b2225ebe6ae779bf00000000000000802e85073e34e68c3d471e9c3df76fa63d471e9c3df76fa63d00000000bcd248be55077bbf0000000000000080471e9c3df76fa63d471e9c3df76fa63d2e85073e34e68c3d00000000c6225ebe69e779bf00000000000000802e85073e34e68c3d2e85073e34e68c3d50e0c03baf08933d0000000013fec13c9eed7f3f000000800000008052eef6bd2a2b993d2e85073e34e68c3d938b383dde34b33d00000000acd248be55077bbf0000000000000080471e9c3df76fa63d616a633cc4f9bf3d616a633cc4f9bf3d00000000d9809b3dd0427fbf0000008000000080616a633cc4f9bf3d616a633cc4f9bf3d0baf2bbd3046b73d00000000eb809b3dd0427fbf0000008000000080616a633cc4f9bf3d571cc8bd9b92ae3d6c951fbe65aea1bd0000000016f67fbf477b8ebc00000000000000806c951fbe65aea1bd6c951fbe65aea1bd430121bedc3a98bc00000000afee7f3f614fbc3c00000080000000801a6d22beee212b3d6c951fbe65aea1bd1a6d22beee212b3d00000000afee7f3f614fbc3c00000080000000801a6d22beee212b3d1a6d22beee212b3d
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -0.013828009, y: 0.040527057, z: 0}
-    m_Extent: {x: 0.14617199, y: 0.119472966, z: 0}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
+  m_GameObject: {fileID: 2016698436}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
     serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.087774836, y: 0.19999337}
+  serializedVersion: 2
+  m_Radius: 0.03841575
+--- !u!58 &2016698445
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016698436}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0987768, y: 0.19466147}
+  serializedVersion: 2
+  m_Radius: 0.03999875
+--- !u!61 &2016698446
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016698436}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.16876078, y: 0.18864775}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 3.2, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11536786, y: 0.032552063}
+  m_EdgeRadius: 0
+--- !u!61 &2016698447
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016698436}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.15637597, y: 0.18539254}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 3.2, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.10210562, y: 0.044270843}
+  m_EdgeRadius: 0
 --- !u!1 &2031642176
 GameObject:
   m_ObjectHideFlags: 0
@@ -31228,16 +31621,23 @@ MonoBehaviour:
   source: {fileID: 0}
   eagle: {fileID: 0}
   Audio: {fileID: 0}
+  landParticles: {fileID: 0}
+  IslandPosition: {fileID: 0}
   player: {fileID: 1047779072}
   rb: {fileID: 0}
   system: {fileID: 0}
   speed: 6
   tear: {fileID: 0}
+  scoreEnd: 99
+  landScore: 9
+  monster: 0
+  rotationSpeed: 2
   frame: 0
   minTurnSpeed: 0
   maxTurnSpeed: 0
   multiplier: 1
   health: 0
+  separationRadius: 60
 --- !u!95 &2052653654
 Animator:
   serializedVersion: 5
@@ -31464,7 +31864,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2103265084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

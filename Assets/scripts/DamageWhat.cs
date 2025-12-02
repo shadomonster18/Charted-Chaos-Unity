@@ -21,6 +21,7 @@ public class DamageWhat : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("CannonBall"))
         {
+            source.time = 0.14f;
             source.PlayOneShot(clip);
         }
     }

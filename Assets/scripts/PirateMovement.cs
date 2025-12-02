@@ -1,36 +1,71 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using static Unity.Collections.AllocatorManager;
 
 public class PirateMovement : MonoBehaviour
 {
     public float moveSpeed = 5;
+    public float slideForce = 5;
+    public float dashDuration = 0.2f;
+    public float slideTimer;
+    public float slideTimerSet;
     public Rigidbody2D rb;
     public Camera cam;
+    public TMP_Text upgradeText;
+    public TMP_Text loadingText;
+
 
     Vector2 movement;
     Vector2 mousePos;
+    Vector2 dashVelocity;
     // Start is called before the first frame update
     void Start()
     {
+        slideTimer = slideTimerSet;
         rb = GetComponent<Rigidbody2D>();
+
+        chasePlayer.score = 0;
+
+        StartCoroutine(WaitAndGiveUpgrade("HigherFireRate", 15, 0.2f));
+        StartCoroutine(WaitAndGiveUpgrade("HigherSpeed", 30, 0.2f));
     }
 
     // Update is called once per frame
     void Update()
     {
+        slideTimer -= Time.deltaTime;
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            if (loadingText != null)
+            {
+                loadingText.text = "Loading...";
+            }
+            SceneManager.LoadScene("OnFootCombat");
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && slideTimer<=0)
+        {
+            dashVelocity = new Vector2(movement.x, movement.y) * slideForce;
+            StartCoroutine(ResetDash());
+            slideTimer = slideTimerSet;
+        }
     }
 
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        rb.velocity = movement * moveSpeed + dashVelocity;
 
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -90f;
@@ -45,5 +80,44 @@ public class PirateMovement : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+    }
+    IEnumerator ResetDash()
+    {
+        yield return new WaitForSeconds(dashDuration);
+        dashVelocity = Vector2.zero;
+    }
+    IEnumerator WaitAndGiveUpgrade(string upgradeName, float delay, float amount)
+    {
+   
+        yield return new WaitForSeconds(delay);
+        /*
+        if (upgradeName == "TripleShot")
+        {
+            upgradeText.text = "+ Triple Shot";
+            tripleShot = true;
+        }
+        if (upgradeName == "SideShot")
+        {
+            upgradeText.text = "+ Side Shot";
+            sideShot = true;
+        }
+        */
+        if (upgradeName == "HigherFireRate")
+        {
+            upgradeText.text = "+ Higher Fire Rate";
+            GetComponent<Shooting>().shootTimerSet -= amount;
+        }
+        if (upgradeName == "HigherSpeed")
+        {
+            upgradeText.text = "+ Higher Speed";
+            moveSpeed += amount;
+        }
+        /*
+        if (upgradeName == "HigherSpawnRate")
+        {
+            upgradeText.text = "+ Higher Spawn Rate";
+            EnemySpawnDelay -= amount;
+        }
+        */
     }
 }

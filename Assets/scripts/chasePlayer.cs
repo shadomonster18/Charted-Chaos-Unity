@@ -14,21 +14,31 @@ public class chasePlayer : MonoBehaviour
     public AudioSource source;
     public GameObject eagle;
     public GameObject Audio;
+    public GameObject landParticles;
+    public Transform IslandPosition;
     [SerializeField] private Transform player;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private GameObject system;
     [SerializeField] private float speed;
     public GameObject tear;
+    public float scoreEnd = 99;
+    public float landScore = 9;
+    public bool monster = false;
     public static float score;
-    private float rotationSpeed = 2;
+    public float rotationSpeed = 2;
+
     public float frame = 0;
     public float minTurnSpeed;
     public float maxTurnSpeed;
     public float multiplier = 1;
     public float health;
+    public float separationRadius = 60f;
+
+    private Vector2 offset;
     // Start is called before the first frame update
     void Start()
     {
+        offset = Random.insideUnitCircle * 2f;
         int a = Random.Range(0, 2);
         if (a == 0)
         {
@@ -61,7 +71,6 @@ public class chasePlayer : MonoBehaviour
             transform.position = new Vector2(transform.position.x + 60 * a, transform.position.y + 33 * a);
         }
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -93,11 +102,30 @@ public class chasePlayer : MonoBehaviour
         if (player != null)
         {
             Vector2 direction = (Vector2)player.position - (Vector2)transform.position;
+            direction.Normalize();
 
-            float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90;
+            // Separation: push away from nearby enemies
+            Vector2 separation = Vector2.zero;
+            float separationStrength = 4.0f;
 
+            Collider2D[] neighbors = Physics2D.OverlapCircleAll(transform.position, separationRadius);
+            foreach (var neighbor in neighbors)
+            {
+                if (neighbor != null && neighbor.gameObject != this.gameObject && neighbor.CompareTag("Eagle"))
+                {
+                    Vector2 away = (Vector2)transform.position - (Vector2)neighbor.transform.position;
+                    if (away.magnitude > 0)
+                    {
+                        separation += away.normalized / away.magnitude; // closer = stronger push
+                    }
+                }
+            }
+
+            // Final movement = chase + separation
+            Vector2 finalDir = (direction + separation * separationStrength).normalized;
+
+            float targetAngle = Mathf.Atan2(finalDir.y, finalDir.x) * Mathf.Rad2Deg - 90;
             float smoothRotation = Mathf.LerpAngle(transform.eulerAngles.z, targetAngle, Time.deltaTime * rotationSpeed);
-
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, smoothRotation));
 
             rb.velocity = transform.up * speed;
@@ -109,13 +137,23 @@ public class chasePlayer : MonoBehaviour
         {
             if (health <= 1)
             {
-                if (score == 9)
+                if (score == scoreEnd)
                 {
-                    if (tear != null)
+                    if (tear != null && !monster)
                     {
                         tear.GetComponent<SpriteRenderer>().enabled = true;
                         tear.GetComponent<Collider2D>().enabled = true;
                     }
+                    else if (monster && loadingText != null)
+                    {
+                        loadingText.text = "You Win";
+                        Time.timeScale = 0;
+                    }
+
+                }
+                if (score == landScore && !monster)
+                {
+                    Instantiate(landParticles, IslandPosition.position, Quaternion.identity);
                 }
                 score += 1;
                 if (system != null)
@@ -130,7 +168,8 @@ public class chasePlayer : MonoBehaviour
                 }
                 if (Audio != null)
                 {
-                    Instantiate(Audio);
+                    GameObject sound = Instantiate(Audio);
+                    sound.GetComponent<AudioSource>().time = 0.25f;
                 }
                 Destroy(gameObject);
             }

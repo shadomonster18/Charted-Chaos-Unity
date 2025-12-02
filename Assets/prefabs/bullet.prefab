@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3920940716932410240}
   - component: {fileID: -6932061905629616484}
   - component: {fileID: -18533853909448177}
+  - component: {fileID: -4829798831561035735}
   m_Layer: 0
   m_Name: bullet
   m_TagString: CannonBall
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1577005687
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -174,3 +175,15 @@ MonoBehaviour:
   rb: {fileID: 0}
   blastForce: 0
   destroy: 1
+--- !u!114 &-4829798831561035735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700696250014393425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39a7e9add7a43f4d816cca7e93e0301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

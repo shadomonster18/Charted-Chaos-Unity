@@ -5,6 +5,7 @@ using UnityEngine;
 public class cannonblast : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public ParticleSystem system;
     public float blastForce = 100;
     public bool destroy = false;
     // Start is called before the first frame update
@@ -27,6 +28,10 @@ public class cannonblast : MonoBehaviour
     {
         if (destroy)
         {
+            if (system != null)
+            {
+                Instantiate(system, transform.position, transform.rotation);
+            }
             Destroy(gameObject);
         }
     }

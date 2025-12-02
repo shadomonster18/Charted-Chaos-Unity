@@ -10,6 +10,7 @@ public class Shooting : MonoBehaviour
     public Transform firePoint;
     public GameObject bullet;
     public AudioSource source;
+    public ScreenShake shake;
 
     public float force = 20;
     // Start is called before the first frame update
@@ -26,10 +27,17 @@ public class Shooting : MonoBehaviour
             shootTimer = shootTimerSet;
             Shoot();
         }
+        if (Input.GetKeyDown(KeyCode.Space) && shootTimer <= 0)
+        {
+            shootTimer = shootTimerSet;
+            Shoot();
+        }
         shootTimer -= Time.deltaTime;
     }
     void Shoot()
     {
+        shake.StartCoroutine(shake.Shaking());
+
         GameObject bulletObj = Instantiate(bullet, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bulletObj.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * force, ForceMode2D.Impulse);
