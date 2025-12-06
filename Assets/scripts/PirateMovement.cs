@@ -14,6 +14,10 @@ public class PirateMovement : MonoBehaviour
     public float dashDuration = 0.2f;
     public float slideTimer;
     public float slideTimerSet;
+    public bool AutoFire;
+    public bool shouldExplode;
+    public float detectionRadius;
+    public LayerMask enemyLayer;
     public Rigidbody2D rb;
     public Camera cam;
     public TMP_Text upgradeText;
@@ -31,13 +35,37 @@ public class PirateMovement : MonoBehaviour
 
         chasePlayer.score = 0;
 
-        StartCoroutine(WaitAndGiveUpgrade("HigherFireRate", 15, 0.2f));
-        StartCoroutine(WaitAndGiveUpgrade("HigherSpeed", 30, 0.2f));
+        StartCoroutine(WaitAndGiveUpgrade("HigherFireRate", 30, 0.2f));
+        StartCoroutine(WaitAndGiveUpgrade("HigherSpawnRate", 15, 0.2f));
+        StartCoroutine(WaitAndGiveUpgrade("HigherSpeed", 45, 0.2f));
+        StartCoroutine(WaitAndGiveUpgrade("HigherSpawnRate", 60, 0.5f));
+        StartCoroutine(WaitAndGiveUpgrade("HigherFireRate", 75, 0.18f));
+        StartCoroutine(WaitAndGiveUpgrade("AutoFire", 90, 0.25f));
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonDown(1))
+        {
+            Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, detectionRadius, enemyLayer);
+
+            if (enemies.Length > 0)
+            {
+                foreach (Collider2D enemy in enemies)
+                {
+                    // Destroy the enemy
+                    Destroy(enemy.gameObject);
+                    Debug.Log("Enemy destroyed: " + enemy.gameObject.name);
+                }
+            }
+            else
+            {
+                // No enemies found
+                Debug.Log("No enemies detected.");
+            }
+        }
         slideTimer -= Time.deltaTime;
 
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -112,12 +140,15 @@ public class PirateMovement : MonoBehaviour
             upgradeText.text = "+ Higher Speed";
             moveSpeed += amount;
         }
-        /*
         if (upgradeName == "HigherSpawnRate")
         {
             upgradeText.text = "+ Higher Spawn Rate";
-            EnemySpawnDelay -= amount;
+            GetComponent<EnemySpawn>().enemyTimer -= amount;
         }
-        */
+        if (upgradeName == "AutoFire")
+        {
+            upgradeText.text = "+ Auto Fire";
+            GetComponent<Shooting>().AutoFire = true;
+        }
     }
 }
